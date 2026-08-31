@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title text-center mb-3">Movies catalog</h2>
+        <div class="row">
+            <div class="col-3">
+                <form class="form">
+                    <input type="text" class="form-control mb-3" placeholder="Avangers">
+                    <input type="number" class="form-control mb-3" min="1" placeholder="5">
+                    <select name="movie-select" id="select" class="form-select mb-3">
+                        <option value="1" selected>All</option>
+                        <option value="2">Nimadir</option>
+                        <option value="3">Bu ham</option>
+                    </select>
+                    <select name="movie-rating" id="select-rating" class="form-select mb-3">
+                        <option value="1" selected>Rating (high to low)</option>
+                        <option value="2">Nimadir</option>
+                        <option value="3">Bu ham</option>
+                    </select>
+                    <button class="btn btn-primary w-100 mb-5">Search</button>
+                </form>
+                <h3 class="title mb-3">Bookmarked Movies</h3>
+                <ul class="list-group">
+                    <li class="list-group-item p-3">
+                        <h4 class="text fs-5 mb-3">Avengers:Infinity War</h4>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </li>
+                    <li class="list-group-item p-3">
+                        <h4 class="text fs-5 mb-3">The Avengers</h4>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </li>
+                    <li class="list-group-item p-3">
+                        <h4 class="text fs-5 mb-3">Avengers:Age of Ultron</h4>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- O'ng tarafdagi qidiruv va kino kartochkasi joylashgan asosiy qism -->
+            <div class="col">
+                <p class="fs-5 mb-2">Search result</p>
+                <input type="search" placeholder="Use the form on the left to search for a movie"
+                    class="form-control bg-info bg-opacity-50 mb-3">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/photos.jpg" width="365" height="220" class="card-img-top"
+                                alt="Avengers: Infinity War">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Avengers: Infinity War</h5>
+                                <p class="card-text mb-2 text-dark">
+                                    <i class="bi bi-calendar-event-fill me-2"></i>2018
+                                </p>
+                                <p class="card-text mb-3 text-dark">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>8.7
+                                </p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-primary btn-sm">Watch trailer</button>
+                                    <button class="btn btn-outline-info btn-sm">More info</button>
+                                    <button class="btn btn-outline-success btn-sm">Bookmark</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/photos.jpg" width="365" height="220" class="card-img-top"
+                                alt="Avengers: Infinity War">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Avengers: Infinity War</h5>
+                                <p class="card-text mb-2 text-dark">
+                                    <i class="bi bi-calendar-event-fill me-2"></i>2018
+                                </p>
+                                <p class="card-text mb-3 text-dark">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>8.7
+                                </p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-primary btn-sm">Watch trailer</button>
+                                    <button class="btn btn-outline-info btn-sm">More info</button>
+                                    <button class="btn btn-outline-success btn-sm">Bookmark</button>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                   <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/photos.jpg" width="365" height="220" class="card-img-top"
+                                alt="Avengers: Infinity War">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Avengers: Infinity War</h5>
+                                <p class="card-text mb-2 text-dark">
+                                    <i class="bi bi-calendar-event-fill me-2"></i>2018
+                                </p>
+                                <p class="card-text mb-3 text-dark">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>8.7
+                                </p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-primary btn-sm">Watch trailer</button>
+                                    <button class="btn btn-outline-info btn-sm">More info</button>
+                                    <button class="btn btn-outline-success btn-sm">Bookmark</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/photos.jpg" width="365" height="220" class="card-img-top"
+                                alt="Avengers: Infinity War">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Avengers: Infinity War</h5>
+                                <p class="card-text mb-2 text-dark">
+                                    <i class="bi bi-calendar-event-fill me-2"></i>2018
+                                </p>
+                                <p class="card-text mb-3 text-dark">
+                                    <i class="bi bi-star-fill text-warning me-2"></i>8.7
+                                </p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-primary btn-sm">Watch trailer</button>
+                                    <button class="btn btn-outline-info btn-sm">More info</button>
+                                    <button class="btn btn-outline-success btn-sm">Bookmark</button>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                            <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
